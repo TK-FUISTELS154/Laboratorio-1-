@@ -25,7 +25,8 @@ laboratorio1/lab1/src/
 [App.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/tree/main/laboratorio1/lab1/src/App.java)
 
 ---
-
+### Mini_quiz
+[Mini_quiz.txt](https://github.com/TK-FUISTELS154/Laboratorio-1-/blob/main/laboratorio1/lab1/src/Mini_quiz.txt)
 ### 2️⃣ Practica1
 
 **Objective:** Practice courses and professors in Java, including displaying images.
