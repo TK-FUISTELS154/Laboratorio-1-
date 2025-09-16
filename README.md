@@ -20,11 +20,6 @@ laboratorio1/lab1/src/
 
 ````
 
-**Run:**
-```bash
-javac -d ../../bin App.java
-java -cp ../../bin App
-````
 
 **Link to Main File:**
 [App.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/tree/main/laboratorio1/lab1/src/App.java)
