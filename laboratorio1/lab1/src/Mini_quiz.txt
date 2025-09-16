@@ -1,0 +1,71 @@
+1. ¿Cuál es la diferencia entre un atributo de instancia y un atributo estático?
+
+Atributo de instancia: vive dentro de cada objeto.
+Cada vez que creas un objeto, ese atributo se “duplica” para él.
+Atributo estático: pertenece a la clase como tal, no a un objeto.
+Es único y compartido por todos los objetos creados de esa clase.
+
+Ejemplo:
+
+class Auto {
+    String color;          // atributo de instancia
+    static int totalAutos; // atributo estático
+
+    public Auto(String color) {
+        this.color = color;
+        totalAutos++; // aumenta cada vez que se crea un auto
+    }
+}
+
+
+Uso:
+
+Auto a1 = new Auto("Rojo");
+Auto a2 = new Auto("Azul");
+
+System.out.println(a1.color);          // "Rojo"
+System.out.println(a2.color);          // "Azul"
+System.out.println(Auto.totalAutos);   // 2 (compartido)
+
+
+2. ¿Qué pasa si quitas public a una clase que está en model? ¿Desde Main sigue siendo accesible?
+
+Cuando no pones nada, la clase queda con acceso por defecto (package-private).
+Esto significa que solo las clases dentro del mismo paquete pueden usarla.
+Si Main está en otro paquete (por ejemplo en edu.uatf.tp2.lab1), y la clase Student está en edu.uatf.tp2.lab1.model ya no será accesible porque no son el mismo paquete.
+
+
+public → accesible desde cualquier paquete.
+(sin nada) → accesible solo dentro de su propio paquete.
+
+
+3. ¿Por qué private ayuda al encapsulamiento?
+
+Porque oculta los detalles internos de la clase y protege sus datos.
+Así evitas que otra clase pueda romper el estado interno de un objeto.
+En lugar de acceder directo al dato, obligas a usar métodos que controlan el acceso (getters y setters con validaciones).
+
+Ejemplo:
+
+class Usuario {
+    private String password;
+
+    // Setter con reglas de seguridad
+    public void setPassword(String password) {
+        if (password.length() < 6) {
+            throw new IllegalArgumentException("La contraseña es muy corta");
+        }
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return "****"; // nunca devuelvo el valor real
+    }
+}
+
+
+Uso:
+Usuario u = new Usuario();
+u.setPassword("segura123");
+System.out.println(u.getPassword()); // imprime ****, no la real
+

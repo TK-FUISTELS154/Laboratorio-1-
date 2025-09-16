@@ -1,0 +1,30 @@
+lab1
+tp2-lab1/
+├─ src/
+|  App.java
+│  └─ edu/
+│     └─ uatf/
+│        └─ tp2/
+│           └─ lab1/
+│              ├─ model/
+│              │  ├─ Student.java
+│              │  └─ Professor.java
+│              └─ util/
+│                 └─ IdGenerator.java
+└─ bin/   (se generará al compilar)
+
+
+practica1
+src/
+ └─ edu/
+    └─ uatf/
+       └─ tp2/
+          └─ lab1/
+             ├─ course/
+             │   ├─ Professor.java
+             │   └─ Course.java
+             ├─ Corrida.png
+             └─ Main.java
+
+
+
