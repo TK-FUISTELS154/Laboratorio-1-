@@ -35,8 +35,8 @@ Esto significa que solo las clases dentro del mismo paquete pueden usarla.
 Si Main está en otro paquete (por ejemplo en edu.uatf.tp2.lab1), y la clase Student está en edu.uatf.tp2.lab1.model ya no será accesible porque no son el mismo paquete.
 
 
-public → accesible desde cualquier paquete.
-(sin nada) → accesible solo dentro de su propio paquete.
+public accesible desde cualquier paquete.
+(sin nada) accesible solo dentro de su propio paquete.
 
 
 3. ¿Por qué private ayuda al encapsulamiento?
