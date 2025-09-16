@@ -10,7 +10,7 @@
 ```
 
 laboratorio1/lab1/src/
-├─ App.java
+├─ Main.java
 └─ edu/uatf/tp2/lab1/
 ├─ model/
 │  ├─ Student.java
@@ -22,7 +22,7 @@ laboratorio1/lab1/src/
 
 
 **Link to Main File:**
-[App.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/tree/main/laboratorio1/lab1/src/App.java)
+[Main.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/blob/main/laboratorio1/lab1/src/Main.java)
 
 ---
 ### Mini_quiz
@@ -44,7 +44,7 @@ laboratorio1/practica1/src/
 ```
 
 **Link to Main File:**
-[Main.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/tree/main/laboratorio1/practica1/src/edu/uatf/tp2/lab1/Main.java)
+[Main.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/blob/main/laboratorio1/practica1/src/edu/uatf/tp2/lab1/Main.java)
 
 **Example Image:**
 ![Corrida](https://github.com/TK-FUISTELS154/Laboratorio-1-/blob/main/laboratorio1/practica1/src/edu/uatf/tp2/lab1/Corrida.png?raw=true)
