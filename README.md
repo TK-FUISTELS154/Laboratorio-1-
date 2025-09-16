@@ -24,13 +24,12 @@ laboratorio1/lab1/src/
 **Link to Main File:**
 [Main.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/blob/main/laboratorio1/lab1/src/Main.java)
 
----
-
 
 ### Mini_quiz
 **Link to Mini_quiz:**
 [Mini_quiz.txt](https://github.com/TK-FUISTELS154/Laboratorio-1-/blob/main/laboratorio1/lab1/src/Mini_quiz.txt)
 
+---
 
 ### 2️⃣ Practica1
 
