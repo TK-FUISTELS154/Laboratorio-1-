@@ -47,13 +47,6 @@ laboratorio1/practica1/src/
    └─ Main.java
 ```
 
-**Run:**
-
-```bash
-javac -d ../../bin edu/uatf/tp2/lab1/Main.java
-java -cp ../../bin edu.uatf.tp2.lab1.Main
-```
-
 **Link to Main File:**
 [Main.java](https://github.com/TK-FUISTELS154/Laboratorio-1-/tree/main/laboratorio1/practica1/src/edu/uatf/tp2/lab1/Main.java)
 
